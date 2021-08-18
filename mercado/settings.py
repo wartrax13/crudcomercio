@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-f7!(th*d(nn)0pm78t270vm9$)(jgk-9^@a35#h9694k**y%u1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['crudtestemercado.herokuapp.com', '*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mercado.base'
 ]
 
 MIDDLEWARE = [
