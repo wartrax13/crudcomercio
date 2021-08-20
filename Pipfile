@@ -7,6 +7,10 @@ name = "pypi"
 django = "*"
 gunicorn = "*"
 pytest-django = "*"
+django-s3-folder-storage = "*"
+python-decouple = "*"
+dj-database-url = "*"
+pillow = "*"
 
 [dev-packages]
 flake8 = "*"
